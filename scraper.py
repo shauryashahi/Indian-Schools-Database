@@ -40,4 +40,3 @@ def main():
 		for i in xrange(21,102,4):
 			table = page.cssselect('tr')[i]
 			data = table.cssselect('td')
-			
